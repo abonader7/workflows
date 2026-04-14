@@ -9,6 +9,6 @@ jobs:
   example:
     runs-on: ubuntu-latest
 
-steps:
-  - name: welcome message
-    run: echo"hi there"
+    steps:
+      - name: welcome message
+        run: echo"hi there"
